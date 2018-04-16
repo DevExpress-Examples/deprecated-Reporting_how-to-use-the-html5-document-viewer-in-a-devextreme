@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Reporting within DevExtreme</title>
+    <script src="Content/web-document-viewer.html" type="text/html"></script>
+    <link rel="stylesheet" href="Content/jquery-ui-1.10.3.custom.min.css" />
+    <link rel="stylesheet" href="Content/dx.light.css" />
+    <link rel="stylesheet" href="Content/dx.common.css" />
+    <link rel="stylesheet" href="Content/web-document-viewer-light.min.css" />
+    <link rel="stylesheet" href="Content/site.css" />
+
+    <script src="Scripts/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="Scripts/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <script src="Scripts/knockout-3.3.0.js" type="text/javascript"></script>
+    <script src="Scripts/globalize.js" type="text/javascript"></script>
+    <script src="Scripts/globalize.cultures.js" type="text/javascript"></script>
+    <script src="Scripts/dx.module-core.js" type="text/javascript"></script>
+    <script src="Scripts/dx.module-widgets-base.js" type="text/javascript"></script>
+    <script src="Scripts/dx.module-widgets-web.js" type="text/javascript"></script>
+    <script src="Scripts/dx-designer.min.js" type="text/javascript"></script>
+    <script src="Scripts/web-document-viewer.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="custom-toolbar">
+        <div class="toolbar-item toolbar-webapi-selector" data-bind="dxCheckBox: { value: webApiController, text: 'Use web api controller' }"></div>
+        <div class="toolbar-item toolbar-report-selector" data-bind="dxSelectBox : { items: reportList, displayExpr: 'text',  valueExpr: 'value', value: selectedReport, placeholder: 'Choose report...' }"></div>
+        <div class="toolbar-item toolbar-open-report-button" data-bind="dxButton : { onClick : function(e){ selectedReport() && previewModel.reportPreview.openReport(selectedReport()); }, text: 'Open report'}"></div>
+    </div>
+    <div class="ViewerContainer" style="height: 850px; width: 100%">
+        <div class='dx-designer' data-bind='template: "dxrd-report-preview"'>
+            <span class='dxwcuic-platformError dxwcuic-hidden'>To be able to run the Document Viewer, the client web browser must support HTML5.</span>
+        </div>
+    </div>
+    <script src="Scripts/initializer.js" type="text/javascript"></script>
+</body>
+</html>
