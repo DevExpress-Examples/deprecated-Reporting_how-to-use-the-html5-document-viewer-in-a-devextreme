@@ -1,0 +1,8 @@
+<div data-options="dxView : { name: 'viewer', title: 'viewer' } ">
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background">
+        <div data-bind="dxSelectBox: { dataSource: reportList, value: currentReport, displayExpr: 'Value', valueExpr: 'Key', placeholder: reportListPlaceholder, disabled: !reportList() }" />
+        <div class="documentViewer" data-bind="dxReportViewer: { viewerModel: viewerModel, callbacks: callbacks }">
+            <span>Loading...</span>
+        </div>
+    </div>
+</div>

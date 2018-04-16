@@ -1,0 +1,8 @@
+﻿/* Put css styles for home view here */
+
+.documentViewer {
+    position: absolute;
+    bottom: 0;
+    top: 36px;
+    height: auto;
+}
