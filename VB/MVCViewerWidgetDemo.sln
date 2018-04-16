@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 14.00
+# Visual Studio 2015
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MVCViewerWidgetDemo", "MVCViewerWidgetDemo.vbproj", "{5F72EB42-B498-4725-A4A2-AD70D98B1B6C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DevExtremeApp", "DevExtremeApp\DevExtremeApp.vbproj", "{351FF9B2-D48A-4AE8-9A7A-4BF536614EDB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F72EB42-B498-4725-A4A2-AD70D98B1B6C} = {5F72EB42-B498-4725-A4A2-AD70D98B1B6C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F72EB42-B498-4725-A4A2-AD70D98B1B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F72EB42-B498-4725-A4A2-AD70D98B1B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F72EB42-B498-4725-A4A2-AD70D98B1B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F72EB42-B498-4725-A4A2-AD70D98B1B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351FF9B2-D48A-4AE8-9A7A-4BF536614EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351FF9B2-D48A-4AE8-9A7A-4BF536614EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351FF9B2-D48A-4AE8-9A7A-4BF536614EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351FF9B2-D48A-4AE8-9A7A-4BF536614EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
