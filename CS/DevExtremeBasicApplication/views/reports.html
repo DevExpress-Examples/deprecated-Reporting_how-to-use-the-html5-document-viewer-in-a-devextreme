@@ -1,0 +1,14 @@
+﻿<div data-options="dxView : { name: 'reports', title: 'Reports', pane: 'master' } " >
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background">
+        <div class="custom-toolbar">
+            <div class="toolbar-item toolbar-webapi-selector" data-bind="dxCheckBox: { value: webApiController, text: 'Use web api controller' }"></div>
+            <div class="toolbar-item toolbar-report-selector" data-bind="dxSelectBox : { items: reportList, displayExpr: 'text',  valueExpr: 'value', value: selectedReport, placeholder: 'Choose report...' }"></div>
+            <div class="toolbar-item toolbar-open-report-button" data-bind="dxButton : { onClick: openReportClick, text: 'Open report'}"></div>
+        </div>
+        <div class="ViewerContainer" style="height: 850px; width: 100%">
+            <div class='dx-designer' data-bind="dxReportViewer: { viewerModel: viewerModel, callbacks: callbacks }">
+                <span class='dxwcuic-platformError dxwcuic-hidden'>To be able to run the Document Viewer, the client web browser must support HTML5.</span>
+            </div>
+        </div>
+    </div>
+</div>

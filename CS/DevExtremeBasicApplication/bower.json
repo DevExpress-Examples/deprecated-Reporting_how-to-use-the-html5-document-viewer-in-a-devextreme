@@ -1,0 +1,7 @@
+{
+  "name": "DevExtremeBasicApplication",
+  "version": "16.1.9",
+  "dependencies": {
+    "xtrareportsjs": "#16.1.9"
+  }
+}

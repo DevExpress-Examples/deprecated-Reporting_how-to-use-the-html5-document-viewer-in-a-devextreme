@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcAspNetReportingBackend", "MvcAspNetReportingBackend.csproj", "{5F72EB42-B498-4725-A4A2-AD70D98B1B6C}"
+EndProject
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "DevExtremeBasicApplication", "DevExtremeBasicApplication\DevExtremeBasicApplication.dxjsproj", "{9DFB588F-B31A-4740-A474-2162F295A26D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F72EB42-B498-4725-A4A2-AD70D98B1B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F72EB42-B498-4725-A4A2-AD70D98B1B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F72EB42-B498-4725-A4A2-AD70D98B1B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F72EB42-B498-4725-A4A2-AD70D98B1B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFB588F-B31A-4740-A474-2162F295A26D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFB588F-B31A-4740-A474-2162F295A26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFB588F-B31A-4740-A474-2162F295A26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFB588F-B31A-4740-A474-2162F295A26D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
