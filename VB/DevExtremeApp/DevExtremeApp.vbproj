@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion></ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{351FF9B2-D48A-4AE8-9A7A-4BF536614EDB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>DevExtremeApp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Web" />
+    <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\dx.common.css" />
+    <Content Include="Content\dx.dark.css" />
+    <Content Include="Content\dx.light.css" />
+    <Content Include="Content\jquery-ui-1.11.4.custom.min.css" />
+    <Content Include="Content\site.css" />
+    <Content Include="Content\web-document-viewer-dark.min.css" />
+    <Content Include="Content\web-document-viewer-light.min.css" />
+    <Content Include="Content\web-document-viewer.html" />
+    <Content Include="default.html" />
+    <Content Include="Scripts\dx-designer.min.js" />
+    <Content Include="Scripts\dx.all.js" />
+    <Content Include="Scripts\Globalize\cldr.event.js" />
+    <Content Include="Scripts\Globalize\cldr.js" />
+    <Content Include="Scripts\Globalize\cldr.supplemental.js" />
+    <Content Include="Scripts\Globalize\cldr.unresolved.js" />
+    <Content Include="Scripts\Globalize\globalize.currency.js" />
+    <Content Include="Scripts\Globalize\globalize.date.js" />
+    <Content Include="Scripts\Globalize\globalize.js" />
+    <Content Include="Scripts\Globalize\globalize.message.js" />
+    <Content Include="Scripts\Globalize\globalize.number.js" />
+    <Content Include="Scripts\initializer.js" />
+    <Content Include="Scripts\jquery-1.11.3.min.js" />
+    <Content Include="Scripts\jquery-ui-1.11.4.custom.min.js" />
+    <Content Include="Scripts\knockout-3.3.0.js" />
+    <Content Include="Scripts\web-document-viewer.min.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\icons\dxicons.eot" />
+    <Content Include="Content\icons\dxicons.ttf" />
+    <Content Include="Content\icons\dxicons.woff" />
+    <Content Include="Scripts\jquery-globalize.LICENSE" />
+    <Content Include="Scripts\jquery-ui.LICENSE" />
+    <Content Include="Scripts\jquery.LICENSE" />
+    <Content Include="Scripts\knockout.LICENSE" />
+    <Content Include="Scripts\CldrData\af-NA.json" />
+    <Content Include="Scripts\CldrData\af.json" />
+    <Content Include="Scripts\CldrData\am.json" />
+    <Content Include="Scripts\CldrData\ar-AE.json" />
+    <Content Include="Scripts\CldrData\ar-BH.json" />
+    <Content Include="Scripts\CldrData\ar-DJ.json" />
+    <Content Include="Scripts\CldrData\ar-DZ.json" />
+    <Content Include="Scripts\CldrData\ar-EG.json" />
+    <Content Include="Scripts\CldrData\ar-EH.json" />
+    <Content Include="Scripts\CldrData\ar-ER.json" />
+    <Content Include="Scripts\CldrData\ar-IL.json" />
+    <Content Include="Scripts\CldrData\ar-IQ.json" />
+    <Content Include="Scripts\CldrData\ar-JO.json" />
+    <Content Include="Scripts\CldrData\ar-KM.json" />
+    <Content Include="Scripts\CldrData\ar-KW.json" />
+    <Content Include="Scripts\CldrData\ar-LB.json" />
+    <Content Include="Scripts\CldrData\ar-LY.json" />
+    <Content Include="Scripts\CldrData\ar-MA.json" />
+    <Content Include="Scripts\CldrData\ar-MR.json" />
+    <Content Include="Scripts\CldrData\ar-OM.json" />
+    <Content Include="Scripts\CldrData\ar-PS.json" />
+    <Content Include="Scripts\CldrData\ar-QA.json" />
+    <Content Include="Scripts\CldrData\ar-SA.json" />
+    <Content Include="Scripts\CldrData\ar-SD.json" />
+    <Content Include="Scripts\CldrData\ar-SO.json" />
+    <Content Include="Scripts\CldrData\ar-SS.json" />
+    <Content Include="Scripts\CldrData\ar-SY.json" />
+    <Content Include="Scripts\CldrData\ar-TD.json" />
+    <Content Include="Scripts\CldrData\ar-TN.json" />
+    <Content Include="Scripts\CldrData\ar-YE.json" />
+    <Content Include="Scripts\CldrData\ar.json" />
+    <Content Include="Scripts\CldrData\az-Latn.json" />
+    <Content Include="Scripts\CldrData\az.json" />
+    <Content Include="Scripts\CldrData\be.json" />
+    <Content Include="Scripts\CldrData\bg.json" />
+    <Content Include="Scripts\CldrData\bn-IN.json" />
+    <Content Include="Scripts\CldrData\bn.json" />
+    <Content Include="Scripts\CldrData\bs-Latn.json" />
+    <Content Include="Scripts\CldrData\bs.json" />
+    <Content Include="Scripts\CldrData\ca-AD.json" />
+    <Content Include="Scripts\CldrData\ca-ES-VALENCIA.json" />
+    <Content Include="Scripts\CldrData\ca-FR.json" />
+    <Content Include="Scripts\CldrData\ca-IT.json" />
+    <Content Include="Scripts\CldrData\ca.json" />
+    <Content Include="Scripts\CldrData\cs.json" />
+    <Content Include="Scripts\CldrData\cy.json" />
+    <Content Include="Scripts\CldrData\da-GL.json" />
+    <Content Include="Scripts\CldrData\da.json" />
+    <Content Include="Scripts\CldrData\de-AT.json" />
+    <Content Include="Scripts\CldrData\de-BE.json" />
+    <Content Include="Scripts\CldrData\de-CH.json" />
+    <Content Include="Scripts\CldrData\de-LI.json" />
+    <Content Include="Scripts\CldrData\de-LU.json" />
+    <Content Include="Scripts\CldrData\de.json" />
+    <Content Include="Scripts\CldrData\el-CY.json" />
+    <Content Include="Scripts\CldrData\el.json" />
+    <Content Include="Scripts\CldrData\en-001.json" />
+    <Content Include="Scripts\CldrData\en-150.json" />
+    <Content Include="Scripts\CldrData\en-AG.json" />
+    <Content Include="Scripts\CldrData\en-AI.json" />
+    <Content Include="Scripts\CldrData\en-AS.json" />
+    <Content Include="Scripts\CldrData\en-AT.json" />
+    <Content Include="Scripts\CldrData\en-AU.json" />
+    <Content Include="Scripts\CldrData\en-BB.json" />
+    <Content Include="Scripts\CldrData\en-BE.json" />
+    <Content Include="Scripts\CldrData\en-BI.json" />
+    <Content Include="Scripts\CldrData\en-BM.json" />
+    <Content Include="Scripts\CldrData\en-BS.json" />
+    <Content Include="Scripts\CldrData\en-BW.json" />
+    <Content Include="Scripts\CldrData\en-BZ.json" />
+    <Content Include="Scripts\CldrData\en-CA.json" />
+    <Content Include="Scripts\CldrData\en-CC.json" />
+    <Content Include="Scripts\CldrData\en-CH.json" />
+    <Content Include="Scripts\CldrData\en-CK.json" />
+    <Content Include="Scripts\CldrData\en-CM.json" />
+    <Content Include="Scripts\CldrData\en-CX.json" />
+    <Content Include="Scripts\CldrData\en-CY.json" />
+    <Content Include="Scripts\CldrData\en-DE.json" />
+    <Content Include="Scripts\CldrData\en-DG.json" />
+    <Content Include="Scripts\CldrData\en-DK.json" />
+    <Content Include="Scripts\CldrData\en-DM.json" />
+    <Content Include="Scripts\CldrData\en-ER.json" />
+    <Content Include="Scripts\CldrData\en-FI.json" />
+    <Content Include="Scripts\CldrData\en-FJ.json" />
+    <Content Include="Scripts\CldrData\en-FK.json" />
+    <Content Include="Scripts\CldrData\en-FM.json" />
+    <Content Include="Scripts\CldrData\en-GB.json" />
+    <Content Include="Scripts\CldrData\en-GD.json" />
+    <Content Include="Scripts\CldrData\en-GG.json" />
+    <Content Include="Scripts\CldrData\en-GH.json" />
+    <Content Include="Scripts\CldrData\en-GI.json" />
+    <Content Include="Scripts\CldrData\en-GM.json" />
+    <Content Include="Scripts\CldrData\en-GU.json" />
+    <Content Include="Scripts\CldrData\en-GY.json" />
+    <Content Include="Scripts\CldrData\en-HK.json" />
+    <Content Include="Scripts\CldrData\en-IE.json" />
+    <Content Include="Scripts\CldrData\en-IL.json" />
+    <Content Include="Scripts\CldrData\en-IM.json" />
+    <Content Include="Scripts\CldrData\en-IN.json" />
+    <Content Include="Scripts\CldrData\en-IO.json" />
+    <Content Include="Scripts\CldrData\en-JE.json" />
+    <Content Include="Scripts\CldrData\en-JM.json" />
+    <Content Include="Scripts\CldrData\en-KE.json" />
+    <Content Include="Scripts\CldrData\en-KI.json" />
+    <Content Include="Scripts\CldrData\en-KN.json" />
+    <Content Include="Scripts\CldrData\en-KY.json" />
+    <Content Include="Scripts\CldrData\en-LC.json" />
+    <Content Include="Scripts\CldrData\en-LR.json" />
+    <Content Include="Scripts\CldrData\en-LS.json" />
+    <Content Include="Scripts\CldrData\en-MG.json" />
+    <Content Include="Scripts\CldrData\en-MH.json" />
+    <Content Include="Scripts\CldrData\en-MO.json" />
+    <Content Include="Scripts\CldrData\en-MP.json" />
+    <Content Include="Scripts\CldrData\en-MS.json" />
+    <Content Include="Scripts\CldrData\en-MT.json" />
+    <Content Include="Scripts\CldrData\en-MU.json" />
+    <Content Include="Scripts\CldrData\en-MW.json" />
+    <Content Include="Scripts\CldrData\en-MY.json" />
+    <Content Include="Scripts\CldrData\en-NA.json" />
+    <Content Include="Scripts\CldrData\en-NF.json" />
+    <Content Include="Scripts\CldrData\en-NG.json" />
+    <Content Include="Scripts\CldrData\en-NL.json" />
+    <Content Include="Scripts\CldrData\en-NR.json" />
+    <Content Include="Scripts\CldrData\en-NU.json" />
+    <Content Include="Scripts\CldrData\en-NZ.json" />
+    <Content Include="Scripts\CldrData\en-PG.json" />
+    <Content Include="Scripts\CldrData\en-PH.json" />
+    <Content Include="Scripts\CldrData\en-PK.json" />
+    <Content Include="Scripts\CldrData\en-PN.json" />
+    <Content Include="Scripts\CldrData\en-PR.json" />
+    <Content Include="Scripts\CldrData\en-PW.json" />
+    <Content Include="Scripts\CldrData\en-RW.json" />
+    <Content Include="Scripts\CldrData\en-SB.json" />
+    <Content Include="Scripts\CldrData\en-SC.json" />
+    <Content Include="Scripts\CldrData\en-SD.json" />
+    <Content Include="Scripts\CldrData\en-SE.json" />
+    <Content Include="Scripts\CldrData\en-SG.json" />
+    <Content Include="Scripts\CldrData\en-SH.json" />
+    <Content Include="Scripts\CldrData\en-SI.json" />
+    <Content Include="Scripts\CldrData\en-SL.json" />
+    <Content Include="Scripts\CldrData\en-SS.json" />
+    <Content Include="Scripts\CldrData\en-SX.json" />
+    <Content Include="Scripts\CldrData\en-SZ.json" />
+    <Content Include="Scripts\CldrData\en-TC.json" />
+    <Content Include="Scripts\CldrData\en-TK.json" />
+    <Content Include="Scripts\CldrData\en-TO.json" />
+    <Content Include="Scripts\CldrData\en-TT.json" />
+    <Content Include="Scripts\CldrData\en-TV.json" />
+    <Content Include="Scripts\CldrData\en-TZ.json" />
+    <Content Include="Scripts\CldrData\en-UG.json" />
+    <Content Include="Scripts\CldrData\en-UM.json" />
+    <Content Include="Scripts\CldrData\en-US-POSIX.json" />
+    <Content Include="Scripts\CldrData\en-VC.json" />
+    <Content Include="Scripts\CldrData\en-VG.json" />
+    <Content Include="Scripts\CldrData\en-VI.json" />
+    <Content Include="Scripts\CldrData\en-VU.json" />
+    <Content Include="Scripts\CldrData\en-WS.json" />
+    <Content Include="Scripts\CldrData\en-ZA.json" />
+    <Content Include="Scripts\CldrData\en-ZM.json" />
+    <Content Include="Scripts\CldrData\en-ZW.json" />
+    <Content Include="Scripts\CldrData\en.json" />
+    <Content Include="Scripts\CldrData\es-419.json" />
+    <Content Include="Scripts\CldrData\es-AR.json" />
+    <Content Include="Scripts\CldrData\es-BO.json" />
+    <Content Include="Scripts\CldrData\es-BR.json" />
+    <Content Include="Scripts\CldrData\es-CL.json" />
+    <Content Include="Scripts\CldrData\es-CO.json" />
+    <Content Include="Scripts\CldrData\es-CR.json" />
+    <Content Include="Scripts\CldrData\es-CU.json" />
+    <Content Include="Scripts\CldrData\es-DO.json" />
+    <Content Include="Scripts\CldrData\es-EA.json" />
+    <Content Include="Scripts\CldrData\es-EC.json" />
+    <Content Include="Scripts\CldrData\es-GQ.json" />
+    <Content Include="Scripts\CldrData\es-GT.json" />
+    <Content Include="Scripts\CldrData\es-HN.json" />
+    <Content Include="Scripts\CldrData\es-IC.json" />
+    <Content Include="Scripts\CldrData\es-MX.json" />
+    <Content Include="Scripts\CldrData\es-NI.json" />
+    <Content Include="Scripts\CldrData\es-PA.json" />
+    <Content Include="Scripts\CldrData\es-PE.json" />
+    <Content Include="Scripts\CldrData\es-PH.json" />
+    <Content Include="Scripts\CldrData\es-PR.json" />
+    <Content Include="Scripts\CldrData\es-PY.json" />
+    <Content Include="Scripts\CldrData\es-SV.json" />
+    <Content Include="Scripts\CldrData\es-US.json" />
+    <Content Include="Scripts\CldrData\es-UY.json" />
+    <Content Include="Scripts\CldrData\es-VE.json" />
+    <Content Include="Scripts\CldrData\es.json" />
+    <Content Include="Scripts\CldrData\et.json" />
+    <Content Include="Scripts\CldrData\eu.json" />
+    <Content Include="Scripts\CldrData\fa-AF.json" />
+    <Content Include="Scripts\CldrData\fa.json" />
+    <Content Include="Scripts\CldrData\fi.json" />
+    <Content Include="Scripts\CldrData\fil.json" />
+    <Content Include="Scripts\CldrData\fo-DK.json" />
+    <Content Include="Scripts\CldrData\fo.json" />
+    <Content Include="Scripts\CldrData\fr-BE.json" />
+    <Content Include="Scripts\CldrData\fr-BF.json" />
+    <Content Include="Scripts\CldrData\fr-BI.json" />
+    <Content Include="Scripts\CldrData\fr-BJ.json" />
+    <Content Include="Scripts\CldrData\fr-BL.json" />
+    <Content Include="Scripts\CldrData\fr-CA.json" />
+    <Content Include="Scripts\CldrData\fr-CD.json" />
+    <Content Include="Scripts\CldrData\fr-CF.json" />
+    <Content Include="Scripts\CldrData\fr-CG.json" />
+    <Content Include="Scripts\CldrData\fr-CH.json" />
+    <Content Include="Scripts\CldrData\fr-CI.json" />
+    <Content Include="Scripts\CldrData\fr-CM.json" />
+    <Content Include="Scripts\CldrData\fr-DJ.json" />
+    <Content Include="Scripts\CldrData\fr-DZ.json" />
+    <Content Include="Scripts\CldrData\fr-GA.json" />
+    <Content Include="Scripts\CldrData\fr-GF.json" />
+    <Content Include="Scripts\CldrData\fr-GN.json" />
+    <Content Include="Scripts\CldrData\fr-GP.json" />
+    <Content Include="Scripts\CldrData\fr-GQ.json" />
+    <Content Include="Scripts\CldrData\fr-HT.json" />
+    <Content Include="Scripts\CldrData\fr-KM.json" />
+    <Content Include="Scripts\CldrData\fr-LU.json" />
+    <Content Include="Scripts\CldrData\fr-MA.json" />
+    <Content Include="Scripts\CldrData\fr-MC.json" />
+    <Content Include="Scripts\CldrData\fr-MF.json" />
+    <Content Include="Scripts\CldrData\fr-MG.json" />
+    <Content Include="Scripts\CldrData\fr-ML.json" />
+    <Content Include="Scripts\CldrData\fr-MQ.json" />
+    <Content Include="Scripts\CldrData\fr-MR.json" />
+    <Content Include="Scripts\CldrData\fr-MU.json" />
+    <Content Include="Scripts\CldrData\fr-NC.json" />
+    <Content Include="Scripts\CldrData\fr-NE.json" />
+    <Content Include="Scripts\CldrData\fr-PF.json" />
+    <Content Include="Scripts\CldrData\fr-PM.json" />
+    <Content Include="Scripts\CldrData\fr-RE.json" />
+    <Content Include="Scripts\CldrData\fr-RW.json" />
+    <Content Include="Scripts\CldrData\fr-SC.json" />
+    <Content Include="Scripts\CldrData\fr-SN.json" />
+    <Content Include="Scripts\CldrData\fr-SY.json" />
+    <Content Include="Scripts\CldrData\fr-TD.json" />
+    <Content Include="Scripts\CldrData\fr-TG.json" />
+    <Content Include="Scripts\CldrData\fr-TN.json" />
+    <Content Include="Scripts\CldrData\fr-VU.json" />
+    <Content Include="Scripts\CldrData\fr-WF.json" />
+    <Content Include="Scripts\CldrData\fr-YT.json" />
+    <Content Include="Scripts\CldrData\fr.json" />
+    <Content Include="Scripts\CldrData\ga.json" />
+    <Content Include="Scripts\CldrData\gl.json" />
+    <Content Include="Scripts\CldrData\gu.json" />
+    <Content Include="Scripts\CldrData\he.json" />
+    <Content Include="Scripts\CldrData\hi.json" />
+    <Content Include="Scripts\CldrData\hr-BA.json" />
+    <Content Include="Scripts\CldrData\hr.json" />
+    <Content Include="Scripts\CldrData\hu.json" />
+    <Content Include="Scripts\CldrData\hy.json" />
+    <Content Include="Scripts\CldrData\id.json" />
+    <Content Include="Scripts\CldrData\is.json" />
+    <Content Include="Scripts\CldrData\it-CH.json" />
+    <Content Include="Scripts\CldrData\it-SM.json" />
+    <Content Include="Scripts\CldrData\it.json" />
+    <Content Include="Scripts\CldrData\ja.json" />
+    <Content Include="Scripts\CldrData\ka.json" />
+    <Content Include="Scripts\CldrData\kk.json" />
+    <Content Include="Scripts\CldrData\km.json" />
+    <Content Include="Scripts\CldrData\kn.json" />
+    <Content Include="Scripts\CldrData\ko-KP.json" />
+    <Content Include="Scripts\CldrData\ko.json" />
+    <Content Include="Scripts\CldrData\ky.json" />
+    <Content Include="Scripts\CldrData\lo.json" />
+    <Content Include="Scripts\CldrData\lt.json" />
+    <Content Include="Scripts\CldrData\lv.json" />
+    <Content Include="Scripts\CldrData\mk.json" />
+    <Content Include="Scripts\CldrData\ml.json" />
+    <Content Include="Scripts\CldrData\mn.json" />
+    <Content Include="Scripts\CldrData\mr.json" />
+    <Content Include="Scripts\CldrData\ms-BN.json" />
+    <Content Include="Scripts\CldrData\ms-SG.json" />
+    <Content Include="Scripts\CldrData\ms.json" />
+    <Content Include="Scripts\CldrData\my.json" />
+    <Content Include="Scripts\CldrData\nb-SJ.json" />
+    <Content Include="Scripts\CldrData\nb.json" />
+    <Content Include="Scripts\CldrData\ne-IN.json" />
+    <Content Include="Scripts\CldrData\ne.json" />
+    <Content Include="Scripts\CldrData\nl-AW.json" />
+    <Content Include="Scripts\CldrData\nl-BE.json" />
+    <Content Include="Scripts\CldrData\nl-BQ.json" />
+    <Content Include="Scripts\CldrData\nl-CW.json" />
+    <Content Include="Scripts\CldrData\nl-SR.json" />
+    <Content Include="Scripts\CldrData\nl-SX.json" />
+    <Content Include="Scripts\CldrData\nl.json" />
+    <Content Include="Scripts\CldrData\pa-Guru.json" />
+    <Content Include="Scripts\CldrData\pa.json" />
+    <Content Include="Scripts\CldrData\pl.json" />
+    <Content Include="Scripts\CldrData\pt-AO.json" />
+    <Content Include="Scripts\CldrData\pt-CH.json" />
+    <Content Include="Scripts\CldrData\pt-CV.json" />
+    <Content Include="Scripts\CldrData\pt-GQ.json" />
+    <Content Include="Scripts\CldrData\pt-GW.json" />
+    <Content Include="Scripts\CldrData\pt-LU.json" />
+    <Content Include="Scripts\CldrData\pt-MO.json" />
+    <Content Include="Scripts\CldrData\pt-MZ.json" />
+    <Content Include="Scripts\CldrData\pt-PT.json" />
+    <Content Include="Scripts\CldrData\pt-ST.json" />
+    <Content Include="Scripts\CldrData\pt-TL.json" />
+    <Content Include="Scripts\CldrData\pt.json" />
+    <Content Include="Scripts\CldrData\ro-MD.json" />
+    <Content Include="Scripts\CldrData\ro.json" />
+    <Content Include="Scripts\CldrData\root.json" />
+    <Content Include="Scripts\CldrData\ru-BY.json" />
+    <Content Include="Scripts\CldrData\ru-KG.json" />
+    <Content Include="Scripts\CldrData\ru-KZ.json" />
+    <Content Include="Scripts\CldrData\ru-MD.json" />
+    <Content Include="Scripts\CldrData\ru-UA.json" />
+    <Content Include="Scripts\CldrData\ru.json" />
+    <Content Include="Scripts\CldrData\si.json" />
+    <Content Include="Scripts\CldrData\sk.json" />
+    <Content Include="Scripts\CldrData\sl.json" />
+    <Content Include="Scripts\CldrData\sq-MK.json" />
+    <Content Include="Scripts\CldrData\sq-XK.json" />
+    <Content Include="Scripts\CldrData\sq.json" />
+    <Content Include="Scripts\CldrData\sr-Cyrl-BA.json" />
+    <Content Include="Scripts\CldrData\sr-Cyrl-ME.json" />
+    <Content Include="Scripts\CldrData\sr-Cyrl-XK.json" />
+    <Content Include="Scripts\CldrData\sr-Cyrl.json" />
+    <Content Include="Scripts\CldrData\sr-Latn-BA.json" />
+    <Content Include="Scripts\CldrData\sr-Latn-ME.json" />
+    <Content Include="Scripts\CldrData\sr-Latn-XK.json" />
+    <Content Include="Scripts\CldrData\sr-Latn.json" />
+    <Content Include="Scripts\CldrData\sr.json" />
+    <Content Include="Scripts\CldrData\supplemental.json" />
+    <Content Include="Scripts\CldrData\sv-AX.json" />
+    <Content Include="Scripts\CldrData\sv-FI.json" />
+    <Content Include="Scripts\CldrData\sv.json" />
+    <Content Include="Scripts\CldrData\sw-CD.json" />
+    <Content Include="Scripts\CldrData\sw-KE.json" />
+    <Content Include="Scripts\CldrData\sw-UG.json" />
+    <Content Include="Scripts\CldrData\sw.json" />
+    <Content Include="Scripts\CldrData\ta-LK.json" />
+    <Content Include="Scripts\CldrData\ta-MY.json" />
+    <Content Include="Scripts\CldrData\ta-SG.json" />
+    <Content Include="Scripts\CldrData\ta.json" />
+    <Content Include="Scripts\CldrData\te.json" />
+    <Content Include="Scripts\CldrData\th.json" />
+    <Content Include="Scripts\CldrData\to.json" />
+    <Content Include="Scripts\CldrData\tr-CY.json" />
+    <Content Include="Scripts\CldrData\tr.json" />
+    <Content Include="Scripts\CldrData\uk.json" />
+    <Content Include="Scripts\CldrData\ur-IN.json" />
+    <Content Include="Scripts\CldrData\ur.json" />
+    <Content Include="Scripts\CldrData\uz-Latn.json" />
+    <Content Include="Scripts\CldrData\uz.json" />
+    <Content Include="Scripts\CldrData\vi.json" />
+    <Content Include="Scripts\CldrData\yue.json" />
+    <Content Include="Scripts\CldrData\zh-Hans-HK.json" />
+    <Content Include="Scripts\CldrData\zh-Hans-MO.json" />
+    <Content Include="Scripts\CldrData\zh-Hans-SG.json" />
+    <Content Include="Scripts\CldrData\zh-Hans.json" />
+    <Content Include="Scripts\CldrData\zh-Hant-HK.json" />
+    <Content Include="Scripts\CldrData\zh-Hant-MO.json" />
+    <Content Include="Scripts\CldrData\zh-Hant.json" />
+    <Content Include="Scripts\CldrData\zh.json" />
+    <Content Include="Scripts\CldrData\zu.json" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62444</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:55777/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl></CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
