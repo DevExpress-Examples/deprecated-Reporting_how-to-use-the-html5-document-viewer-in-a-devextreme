@@ -1,0 +1,12 @@
+<div data-options="dxView : { name: 'viewer', title: 'HTML5 Document Viewer' } ">
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background">
+        <select name="reports" data-bind="value: reportUrl">
+            <!-- ko foreach: reports -->
+            <option data-bind="value: Key, text: Value"></option>
+            <!-- /ko -->
+        </select>
+        <!-- ko if: reportUrl -->
+        <div data-bind="dxReportViewer: viewerOptions"></div>
+        <!-- /ko -->
+    </div>
+</div>
