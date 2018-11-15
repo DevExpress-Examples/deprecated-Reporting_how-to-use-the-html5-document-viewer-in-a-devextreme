@@ -1,3 +1,16 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [app.config.js](./CS/ClientSideDevExtremeProject/app.config.js) (VB: [app.config.js](./VB/ClientSideDevExtremeProject/app.config.js))
+* [bower.json](./CS/ClientSideDevExtremeProject/bower.json) (VB: [bower.json](./VB/ClientSideDevExtremeProject/bower.json))
+* [index.html](./CS/ClientSideDevExtremeProject/index.html) (VB: [index.html](./VB/ClientSideDevExtremeProject/index.html))
+* [viewer.css](./CS/ClientSideDevExtremeProject/views/viewer.css)
+* [viewer.html](./CS/ClientSideDevExtremeProject/views/viewer.html) (VB: [viewer.html](./VB/ClientSideDevExtremeProject/views/viewer.html))
+* **[viewer.js](./CS/ClientSideDevExtremeProject/views/viewer.js) (VB: [viewer.js](./VB/ClientSideDevExtremeProject/views/viewer.js))**
+* [WebDocumentViewerController.cs](./CS/ServerSide/Controllers/WebDocumentViewerController.cs) (VB: [WebDocumentViewerController.vb](./VB/ServerSide/Controllers/WebDocumentViewerController.vb))
+* [Global.asax.cs](./CS/ServerSide/Global.asax.cs) (VB: [Global.asax.vb](./VB/ServerSide/Global.asax.vb))
+* [MyReportStorage.cs](./CS/ServerSide/MyReportStorage.cs) (VB: [MyReportStorage.vb](./VB/ServerSide/MyReportStorage.vb))
+<!-- default file list end -->
 # How to use the HTML5 Document Viewer in a DevExtreme application
 
 <strong>Important:</strong>&nbsp;<br>Starting with v18.1, the DevExtreme hybrid mobile-related tools and the demonstrated integration approach are deprecated. See <a href="https://community.devexpress.com/blogs/aspnet/archive/2018/02/26/devextreme-hybrid-mobile-tools-deprecation-in-v18-1.aspx">this blog post</a> for more information.<br>
