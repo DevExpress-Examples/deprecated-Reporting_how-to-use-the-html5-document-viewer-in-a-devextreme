@@ -1,3 +1,18 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [RouteConfig.cs](./CS/App_Start/RouteConfig.cs) (VB: [RouteConfig.vb](./VB/App_Start/RouteConfig.vb))
+* [WebApiConfig.cs](./CS/App_Start/WebApiConfig.cs) (VB: [WebApiConfig.vb](./VB/App_Start/WebApiConfig.vb))
+* [WebDocumentViewerController.cs](./CS/Controllers/WebDocumentViewerController.cs) (VB: [WebDocumentViewerController.vb](./VB/Controllers/WebDocumentViewerController.vb))
+* [WebDocumentViewerWebApiController.cs](./CS/Controllers/WebDocumentViewerWebApiController.cs) (VB: [WebDocumentViewerWebApiController.vb](./VB/Controllers/WebDocumentViewerWebApiController.vb))
+* [app.config.js](./CS/DevExtremeBasicApplication/app.config.js) (VB: [app.config.js](./VB/DevExtremeBasicApplication/app.config.js))
+* [bower.json](./CS/DevExtremeBasicApplication/bower.json) (VB: [bower.json](./VB/DevExtremeBasicApplication/bower.json))
+* [index.html](./CS/DevExtremeBasicApplication/index.html) (VB: [index.html](./VB/DevExtremeBasicApplication/index.html))
+* [reports.html](./CS/DevExtremeBasicApplication/views/reports.html) (VB: [reports.html](./VB/DevExtremeBasicApplication/views/reports.html))
+* [reports.js](./CS/DevExtremeBasicApplication/views/reports.js) (VB: [reports.js](./VB/DevExtremeBasicApplication/views/reports.js))
+* [Global.asax.cs](./CS/Global.asax.cs) (VB: [Global.asax.vb](./VB/Global.asax.vb))
+* [CustomReportResolver.cs](./CS/Models/CustomReportResolver.cs) (VB: [CustomReportResolver.vb](./VB/Models/CustomReportResolver.vb))
+<!-- default file list end -->
 # How to use the HTML5 Document Viewer in a DevExtreme application
 
 
