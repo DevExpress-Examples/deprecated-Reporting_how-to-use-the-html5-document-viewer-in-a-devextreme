@@ -1,3 +1,15 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [app.config.js](./CS/BasicDevExtremeApp/app.config.js) (VB: [app.config.js](./VB/BasicDevExtremeApp/app.config.js))
+* [index.html](./CS/BasicDevExtremeApp/index.html) (VB: [index.html](./VB/BasicDevExtremeApp/index.html))
+* [viewer.css](./CS/BasicDevExtremeApp/views/viewer.css)
+* [viewer.html](./CS/BasicDevExtremeApp/views/viewer.html) (VB: [viewer.html](./VB/BasicDevExtremeApp/views/viewer.html))
+* **[viewer.js](./CS/BasicDevExtremeApp/views/viewer.js) (VB: [viewer.js](./VB/BasicDevExtremeApp/views/viewer.js))**
+* [WebDocumentViewerController.cs](./CS/ReportingBackend/Controllers/WebDocumentViewerController.cs) (VB: [WebDocumentViewerController.vb](./VB/ReportingBackend/Controllers/WebDocumentViewerController.vb))
+* [Global.asax.cs](./CS/ReportingBackend/Global.asax.cs) (VB: [Global.asax.vb](./VB/ReportingBackend/Global.asax.vb))
+* [CustomReportResolver.cs](./CS/ReportingBackend/Services/CustomReportResolver.cs) (VB: [CustomReportResolver.vb](./VB/ReportingBackend/Services/CustomReportResolver.vb))
+<!-- default file list end -->
 # How to use the HTML5 Document Viewer in a DevExtreme application
 
 
