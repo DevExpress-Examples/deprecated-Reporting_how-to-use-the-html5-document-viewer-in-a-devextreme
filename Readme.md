@@ -1,3 +1,14 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [RouteConfig.cs](./CS/App_Start/RouteConfig.cs) (VB: [RouteConfig.vb](./VB/App_Start/RouteConfig.vb))
+* [WebApiConfig.cs](./CS/App_Start/WebApiConfig.cs) (VB: [WebApiConfig.vb](./VB/App_Start/WebApiConfig.vb))
+* [WebDocumentViewerController.cs](./CS/Controllers/WebDocumentViewerController.cs) (VB: [WebDocumentViewerController.vb](./VB/Controllers/WebDocumentViewerController.vb))
+* [WebDocumentViewerWebApiController.cs](./CS/Controllers/WebDocumentViewerWebApiController.cs) (VB: [WebDocumentViewerWebApiController.vb](./VB/Controllers/WebDocumentViewerWebApiController.vb))
+* **[default.html](./CS/DevExtremeApp/default.html) (VB: [default.html](./VB/DevExtremeApp/default.html))**
+* [initializer.js](./CS/DevExtremeApp/Scripts/initializer.js) (VB: [initializer.js](./VB/DevExtremeApp/Scripts/initializer.js))
+* [Global.asax.cs](./CS/Global.asax.cs) (VB: [Global.asax.vb](./VB/Global.asax.vb))
+<!-- default file list end -->
 # How to use the HTML5 Document Viewer in a DevExtreme application
 
 
